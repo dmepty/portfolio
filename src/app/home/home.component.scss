@@ -30,13 +30,13 @@ section {
         left: 50%;
         margin-bottom: 50px;
 
-        .btn {          
+        a {          
           font-size: calc(1.5vh + 1.5vw);
           color: #000;
           text-decoration: none;
         }
 
-        .btn:hover {
+        a:hover {
           color: #18b5dc;
         }
       }
