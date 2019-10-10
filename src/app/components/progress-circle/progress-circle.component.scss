@@ -1,0 +1,20 @@
+.circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    position: relative;
+
+    .text {
+      position: absolute;
+      text-align: center;
+      font-size: 27px;
+      font-weight: bold;
+    }
+
+    .progress-ring-circle {
+      transition: 0.35s stroke-dashoffset;
+      transform: rotate(-90deg);
+      transform-origin: 50% 50%;
+    }
+  }

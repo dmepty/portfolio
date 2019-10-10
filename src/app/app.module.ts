@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { SkillsComponent } from './skills/skills.component';
+import { ProgressCircleComponent } from './components/progress-circle/progress-circle.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     AboutComponent,
-    SkillsComponent
+    SkillsComponent,
+    ProgressCircleComponent
   ],
   imports: [
     BrowserModule,

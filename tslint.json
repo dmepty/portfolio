@@ -6,6 +6,12 @@
     "deprecation": {
       "severity": "warning"
     },
+    "prefer-const": {
+      "severity": "warning"
+    },
+    "no-var-keyword": {
+      "severity": "warning"
+    },
     "component-class-suffix": true,
     "contextual-lifecycle": true,
     "directive-class-suffix": true,
