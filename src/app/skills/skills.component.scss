@@ -1,10 +1,10 @@
 section {
-  height: 500px;
+  height: 600px;
   background-color: #f6f6f6;
   font-family: "Lato", sans-serif;
 
   .container {
-    width: 100%;
+    width: 100%;   
 
     .row {
       text-align: center;
@@ -13,7 +13,7 @@ section {
         width: 1170px;
 
         .header {
-          margin-top: 100px;
+          margin-top: 80px;
           font-weight: bold;
           font-size: 30px;
         }
@@ -28,8 +28,35 @@ section {
           margin: 0 auto;
           margin-top: 20px;
           margin-bottom: 40px;
-        }        
+        }     
+        
+        .content {
+          .skill-name {
+            margin-top: 20px;
+            margin-bottom: 30px;
+            font-size: 24px;
+            font-weight: bold;
+          }
+
+          .skill-description {
+            .keyword{
+              background-color: #C8C8C8;
+              padding: 3px;
+              border-radius: 5px;
+            }
+          }
+
+          .col-md-4 {
+            @media (max-width: 768px) {
+              margin-bottom: 60px;
+            }
+          }
+        }
       }
     }
+  }
+
+  @media (max-width: 768px) {
+    height: 1100px;
   }
 }
