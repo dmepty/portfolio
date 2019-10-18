@@ -1,5 +1,5 @@
 section {
-  height: 600px;
+  min-height: 600px;
   background-color: #f6f6f6;
   font-family: "Lato", sans-serif;
 
@@ -54,9 +54,5 @@ section {
         }
       }
     }
-  }
-
-  @media (max-width: 768px) {
-    height: 1100px;
   }
 }

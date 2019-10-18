@@ -14,29 +14,45 @@ section {
       margin-right: 0 !important;
 
       text-align: center;
-      font-family: 'Lato', sans-serif;
+      font-family: "Lato", sans-serif;
 
       .header {
-        font-size: calc(2vh + 3vw);
+        font-size: 60px;
         font-weight: bold;
       }
 
       .sub-header {
-        font-size: calc(1vh + 1.5vw);
+        font-size: 30px;
       }
 
       .arrow {
         left: 50%;
         margin-bottom: 50px;
 
-        a {          
-          font-size: calc(1.5vh + 1.5vw);
+        a {
+          font-size: 30px;
           color: #000;
           text-decoration: none;
         }
 
         a:hover {
           color: #18b5dc;
+        }
+      }
+
+      @media (max-width: 450px) {
+        .header {
+          font-size: 30px;
+        }
+
+        .sub-header {
+          font-size: 15px;
+        }
+
+        .arrow {
+          a {
+            font-size: 25px;
+          }
         }
       }
     }

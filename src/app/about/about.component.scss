@@ -1,15 +1,19 @@
 section {
-  height: 450px;
+  min-height: 450px;
   font-family: "Lato", sans-serif;
 
-  .container-fluid {
+  .container {
     height: 100%;
+    width: 100%;
 
     .row {
       text-align: center;
+      padding-bottom: 60px;
 
       .flex-column {
         width: 600px;
+        padding-left: 15px;
+        padding-right: 15px;
 
         .header {
           margin-top: 80px;
