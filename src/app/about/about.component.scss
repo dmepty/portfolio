@@ -1,37 +1,12 @@
 section {
-  min-height: 450px;
-  font-family: "Lato", sans-serif;
+  min-height: 400px;
 
   .container {
-    height: 100%;
-    width: 100%;
-
     .row {
-      text-align: center;
-      padding-bottom: 60px;
-
       .flex-column {
-        width: 600px;
+        width: 630px !important;
         padding-left: 15px;
-        padding-right: 15px;
-
-        .header {
-          margin-top: 80px;
-          font-weight: bold;
-          font-size: 30px;
-        }
-
-        .header:after {
-          content: "";
-          display: block;
-          width: 45px;
-          height: 4px;
-          background-color: #dddbdb;
-
-          margin: 0 auto;
-          margin-top: 20px;
-          margin-bottom: 40px;
-        }
+        padding-right: 15px;        
       }
     }
   }

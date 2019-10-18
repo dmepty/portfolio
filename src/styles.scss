@@ -1,26 +1,27 @@
-@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-@import '../node_modules/@fortawesome/fontawesome-free/css/all.min.css';
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+@import "../node_modules/@fortawesome/fontawesome-free/css/all.min.css";
 
 @font-face {
-    font-family: 'Custom Icons';
-    font-style: normal;
-    font-weight: normal;
-    src: url('../src/assets/fonts/icomoon.woff') format('woff');
+  font-family: "Custom Icons";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../src/assets/fonts/icomoon.woff") format("woff");
 }
 
-[class^="icon-"], [class*=" icon-"] {
-    font-family: 'Custom Icons' !important;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
+[class^="icon-"],
+[class*=" icon-"] {
+  font-family: "Custom Icons" !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
 
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 
-  .icon-arrow-down:before {
+.icon-arrow-down:before {
   content: "\e900";
 }
 
@@ -32,4 +33,40 @@
 .row {
   margin-right: 0 !important;
   margin-left: 0 !important;
+}
+
+// Default styles
+section {
+  font-family: "Lato", sans-serif;
+
+  .container {
+    width: 100%;
+
+    .row {
+      text-align: center;
+      padding-bottom: 40px;
+
+      .flex-column {
+        width: 1170px;
+
+        .header {
+          margin-top: 80px;
+          font-weight: bold;
+          font-size: 30px;
+        }
+
+        .header:after {
+          content: "";
+          display: block;
+          width: 45px;
+          height: 4px;
+          background-color: #dddbdb;
+
+          margin: 0 auto;
+          margin-top: 20px;
+          margin-bottom: 40px;
+        }
+      }
+    }
+  }
 }
