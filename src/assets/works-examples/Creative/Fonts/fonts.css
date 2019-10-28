@@ -1,0 +1,27 @@
+@font-face {
+font-family: 'Gotham Bold';
+font-style: normal;
+font-weight: normal;
+src: local('Gotham Bold'), url('Gotham/Gotham\ Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Gotham Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gotham Medium'), url('Gotham/GothamMedium.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Gotham Book';
+font-style: normal;
+font-weight: normal;
+src: local('Gotham Book'), url('Gotham/GothamBook.woff') format('woff');
+}
+
+@font-face { 
+    font-family: 'Myriad Pro Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Myriad Pro Regular'), url('Myriad/MYRIADPRO-REGULAR.woff') format('woff');
+}

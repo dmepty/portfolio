@@ -1,11 +1,19 @@
 section {
-  min-height: 600px;
+  min-height: 530px;
 
   .container {
     .row {
       .flex-column {
-          
         .content {
+          img:hover {
+            cursor: pointer;
+
+            -webkit-transform: scale(0.9);
+            -ms-transform: scale(0.9);
+            transform: scale(0.9);
+
+            opacity: 0.8;
+          }
         }
       }
     }
