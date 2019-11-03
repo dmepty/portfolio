@@ -1,0 +1,28 @@
+section {
+  min-height: 80px;
+  background-color: #f6f6f6;
+
+  .container {
+    .row-padding {
+      padding-bottom: 20px !important;
+      padding-top: 20px;
+    }
+
+    .row {
+      padding-bottom: 0 !important;
+
+      a {
+          color: black;
+          text-decoration: none;
+        i {
+          font-size: 20px;
+        }
+
+        i:hover {
+            cursor: pointer;
+            color: #18b5dc;
+        }
+      }
+    }
+  }
+}

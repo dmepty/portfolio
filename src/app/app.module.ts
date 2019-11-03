@@ -8,6 +8,7 @@ import { AboutComponent } from './about/about.component';
 import { SkillsComponent } from './skills/skills.component';
 import { ProgressCircleComponent } from './components/progress-circle/progress-circle.component';
 import { WorksComponent } from './works/works.component';
+import { ContactsComponent } from './contacts/contacts.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { WorksComponent } from './works/works.component';
     AboutComponent,
     SkillsComponent,
     ProgressCircleComponent,
-    WorksComponent
+    WorksComponent,
+    ContactsComponent
   ],
   imports: [
     BrowserModule,
